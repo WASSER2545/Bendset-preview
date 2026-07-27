@@ -11,6 +11,13 @@ Privacy-sensitive SQL text and user data are not included. Database and user
 identifiers are anonymized, while exact-query and parameterized-query hashes
 preserve the ability to study repetition without exposing query text.
 
+## Scenario
+
+Bendset represents the production analytical workload of a gaming company
+running on Databend Cloud. The public trace focuses on database workload
+behavior and system measurements; company-identifying details, application
+data, and business-sensitive SQL text are excluded.
+
 ## Dataset
 
 The preview dataset is available from
